@@ -1,0 +1,8 @@
+ 
+- Andrew Ng and Yan LeCun discuss Deep Learning and neural networks.
+- Yan LeCun has been a leader in this field for a long time.
+- Yan shares his personal story of growing up in France and being interested in technology and space.
+- In middle school, he became fascinated with intelligent machines and human evolution after watching the movie 2001, A Space Odyssey.
+- He studied electrical engineering in school and stumbled upon a philosophy book in his second year that influenced his thinking.
+- The book was a debate between Noam Chomsky and Jean Piaget on the nature vs. nurture debate in language.
+- Each side had a team of people, including Seymour Papert from MIT who worked on the Perceptron model.

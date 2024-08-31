@@ -1,0 +1,312 @@
+Speaker: Andrew Ng, Text:  Hi Yan, you've been such a leader for Deep Learning for so long.
+Speaker: Andrew Ng, Text: Thanks a lot for doing this with us.
+Speaker: Andrew Ng, Text: Well, thanks for having me.
+Speaker: Andrew Ng, Text: So you've been working on neural nets for a long time.
+Speaker: Andrew Ng, Text: I'd love to hear your personal story of how did you get started in AI, how did you end up working with neural networks?
+Speaker: Yan LeCun, Text:  So I was always interested in intelligence in general, like the emergence of intelligence in humans, that got me interested in human evolution when I was a kid.
+Speaker: Yan LeCun, Text: It was in France.
+Speaker: Yan LeCun, Text: It was in France.
+Speaker: Yan LeCun, Text: I was in middle school or something.
+Speaker: Yan LeCun, Text: And
+Speaker: Yan LeCun, Text:  know, I was interested in technology and like, you know, space, etc.
+Speaker: Yan LeCun, Text: You know, my favorite movie was 2001, A Space Odyssey, you know, you had intelligent machines, you know, space travel, and human evolution as kind of the themes that was what I was fascinated by.
+Speaker: Yan LeCun, Text: And, and, you know, the concept of intelligent machine, I think, really kind of appealed to me.
+Speaker: Yan LeCun, Text: And then, you know, I studied electrical engineering.
+Speaker: Yan LeCun, Text: And when I was at school, I was maybe in second year of engineering school, I stumbled on a book
+Speaker: Yan LeCun, Text:  which was actually a philosophy book.
+Speaker: Yan LeCun, Text: It was a debate between Noam Chomsky, the computational linguist at MIT, and Jean Piaget, who is a cognitive psychologist, a psychologist of child development in Switzerland.
+Speaker: Yan LeCun, Text:  It was basically a debate between nature and nurture, where Chomsky arguing for the fact that language has a lot of innate structure, and Piaget saying a lot of it is learned, et cetera.
+Speaker: Yan LeCun, Text: And on the side of Piaget was a transcription of a person.
+Speaker: Yan LeCun, Text: Each of these guys sort of brought their teams of people to argue for their side.
+Speaker: Yan LeCun, Text: And on the side of Piaget was Seymour Papert from MIT.
+Speaker: Yan LeCun, Text:  who had worked on the Perceptron model, one of the first machines capable of learning.
+Speaker: Yan LeCun, Text: And I'd never heard of the Perceptron.
+Speaker: Yan LeCun, Text: And I read this article and I say, a machine capable of learning, that sounds wonderful.
+Speaker: Yan LeCun, Text: And so I started going to several university libraries and searching for all, you know, everything I could find that talked about the Perceptron and realized there was a lot of papers from the 50s, but it kind of stopped at the end of the 60s with a book that was co-authored by the same Seymour Papert.
+Speaker: Yan LeCun, Text:  What year was this?
+Speaker: Yan LeCun, Text: So this was 1980, roughly.
+Speaker: Yan LeCun, Text: And so I specialized, I did a couple of projects with some of the math professors in my school on neural nets, essentially.
+Speaker: Yan LeCun, Text: But there was no one I could talk to who had worked on this, because the field basically had disappeared in the meantime.
+Speaker: Yan LeCun, Text: It's 1980, nobody was working on this.
+Speaker: Yan LeCun, Text: And I experimented with this a little bit, writing simulations of various kinds.
+Speaker: Yan LeCun, Text:  reading about neuroscience.
+Speaker: Yan LeCun, Text: When I finished my engineering studies, I studied chip design, VLSI design at the time.
+Speaker: Yan LeCun, Text: So it's something completely different.
+Speaker: Yan LeCun, Text: And when I finished, I really wanted to kind of do research on this.
+Speaker: Yan LeCun, Text: And I figured out already that at the time that the important question was how you train neural nets with multiple layers.
+Speaker: Yan LeCun, Text: It was pretty clear in the literature of the 60s that that was the important question that had been left unsolved.
+Speaker: Yan LeCun, Text:  and the idea of hierarchy and everything.
+Speaker: Yan LeCun, Text: I'd read Fukushima's article on the neocognitron, which was this sort of hierarchical architecture, very similar to what we now call convolutional nets.
+Speaker: Yan LeCun, Text:  without backprop style learning algorithms.
+Speaker: Yan LeCun, Text: And I met people who were in a small independent lab in France that were interested in what they called at the time automata networks.
+Speaker: Yan LeCun, Text: And they gave me
+Speaker: Yan LeCun, Text:  a couple of papers, the paper on hot field networks, which, you know, is not very popular anymore, but it's, you know, the first associative memories with neural nets, and that that paper kind of revived the interest of some research communities into neural nets in the early 80s, where by mostly physicists and condensed matter physicists and a few psychologists, it was still not okay for engineers and computer scientists to talk about neural nets.
+Speaker: Yan LeCun, Text:  And they also showed me another paper that had just been distributed as a preprint, whose title was Optimal Perceptual Inference.
+Speaker: Yan LeCun, Text: And this was the first paper on Boltzmann machines by Geoff Hinton and Terry Sanofsky.
+Speaker: Yan LeCun, Text: It was talking about hidden units.
+Speaker: Yan LeCun, Text: It was talking about basically the problem of learning
+Speaker: Yan LeCun, Text:  you know, multi-layer neural nets that are more capable than just linear classifiers.
+Speaker: Yan LeCun, Text: So I said, you know, I need to meet these people because they are really interested in the right problem.
+Speaker: Yan LeCun, Text: And a couple of years later, after I started my PhD,
+Speaker: Yan LeCun, Text:  I participated in a workshop in Les Uges, and that was organized by the people I was working with, and Thierry was one of the speakers at that workshop, so I met him at that time.
+Speaker: Yan LeCun, Text: This is like early 80s now.
+Speaker: Yan LeCun, Text: This is 1985, early 1985.
+Speaker: Yan LeCun, Text: So I met Thierry Senowski in 1985 in the workshop in France in Les Uges, and a lot of people were there from the sort of early neural net, you know, jump up fields.
+Speaker: Yan LeCun, Text:  a lot of people working on sort of theoretical neuroscience and stuff like that.
+Speaker: Yan LeCun, Text: It was a fascinating workshop.
+Speaker: Yan LeCun, Text: I met also a couple of people from Bell Labs who eventually hired me at Bell Labs.
+Speaker: Yan LeCun, Text: Okay, but this was several years before I finished my PhD.
+Speaker: Yan LeCun, Text: So, I talked to Terry Sanofsky and I was telling him about what I was working on, which was some version of Backprop at the time.
+Speaker: Yan LeCun, Text: This was before Backprop was a paper.
+Speaker: Yan LeCun, Text: And Terry was working on Nettalk at the time.
+Speaker: Yan LeCun, Text:  This was, you know, before the, you know, the Ramalhite-Hinton-Williams paper on backprop had been published, but, you know, he was friends with Jeff, you know, this information was circulating, so he was already
+Speaker: Yan LeCun, Text:  working on trying to make this work for NetTalk, but he didn't tell me.
+Speaker: Yan LeCun, Text: And he went back to the U.S.
+Speaker: Yan LeCun, Text: and told Jeff there is some kid in France who's working on the same stuff we were working on.
+Speaker: Yan LeCun, Text: And then a couple months, a few months later in June, there was another conference in France where Jeff was a keynote speaker.
+Speaker: Yan LeCun, Text: And he gave a talk on Boson machines.
+Speaker: Yan LeCun, Text: Of course he was working on, you know, the backprop paper.
+Speaker: Yan LeCun, Text:  And he gives this talk, and then there is 50 people around him who want to talk to him.
+Speaker: Yan LeCun, Text: And the first thing he says to the organizer is, do you know this guy, Yann LeCun?
+Speaker: Yan LeCun, Text: And it's because he had read my paper in the proceedings that was written in French.
+Speaker: Yan LeCun, Text: And he could sort of read French, and he could see the math, and he could figure out it was sort of backprop.
+Speaker: Yan LeCun, Text:  And so we had lunch together and that's how we became friends.
+Speaker: Andrew Ng, Text: So that's because you basically, you know, independently, multiple groups independently reinvented or invented backprop pretty much.
+Speaker: Yan LeCun, Text: Right.
+Speaker: Yan LeCun, Text: Or realized that the whole idea of chain rule or what the optimal control people call the adjoined state method, which is, you know, really the context in which backprop was really invented.
+Speaker: Yan LeCun, Text: This is the context of optimal control back in the early 60s.
+Speaker: Yan LeCun, Text: This idea that you could use gradient descent basically with multiple kind of stages.
+Speaker: Yan LeCun, Text:  is what BIPOC really is, and that popped up in various contexts at various times.
+Speaker: Yan LeCun, Text: But I think, you know, the Ramarhide Hinton Williams paper is the one that popularized it.
+Speaker: Andrew Ng, Text:  And then fast forward a few years, you wound up at AT&T Bell Labs, where you invented, among many things, the net, which we talked about in the course.
+Speaker: Andrew Ng, Text: And I remember way back, I was a summer intern at AT&T Bell Labs, working with Michael Kearns and a few others, and hearing about your work even back then.
+Speaker: Andrew Ng, Text: So tell me more about your
+Speaker: Andrew Ng, Text:  your AT&T LeNet experience.
+Speaker: Yan LeCun, Text: So, what happened is I actually started working on CommercialNet when I was a postdoc at University of Toronto with Geoff Hinton.
+Speaker: Yan LeCun, Text: I did the first experiment.
+Speaker: Yan LeCun, Text: I wrote the code there and did the first experiments there that showed that if you had a very small dataset, the dataset I was training on, there was no MNIST or anything like that back then.
+Speaker: Yan LeCun, Text: So, I drew a bunch of characters with my mouse.
+Speaker: Yan LeCun, Text: I had an Amiga personal computer, which was the best computer ever, and I drew a bunch of characters.
+Speaker: Yan LeCun, Text:  and then use that data augmentation to kind of increase it and then use that as a way to test the performance.
+Speaker: Yan LeCun, Text: And I compared things like fully connected nets, locally connected nets without shared weights, and then shared weight networks, which was basically the first ConvNet.
+Speaker: Yan LeCun, Text: And that worked really well for relatively small data sets, which could show that you get better performance and no overtraining with the convolutional architecture.
+Speaker: Yan LeCun, Text: And when I got to Bell Labs in
+Speaker: Yan LeCun, Text:  October 1988.
+Speaker: Yan LeCun, Text: The first thing I did was first scale up the network because we had faster computers.
+Speaker: Yan LeCun, Text: A few months before I got to Bell Labs, my boss at the time, Larry Jackal, who became my department head at Bell Labs, said, oh, we should order a computer for you before you come.
+Speaker: Yan LeCun, Text: What do you want?
+Speaker: Yan LeCun, Text: I said, well, you know, here, just here in Toronto, there is a Sun 4, which was the latest, greatest stuff.
+Speaker: Yan LeCun, Text: It'd be great if we had one.
+Speaker: Yan LeCun, Text:  And they ordered one, and I had one for myself.
+Speaker: Yan LeCun, Text: At the University of Toronto, it was one for the entire department.
+Speaker: Yan LeCun, Text: I had one just for me.
+Speaker: Yan LeCun, Text: And so what Larry told me, he said, yeah, you know about lives, you don't get famous by saving money.
+Speaker: Yan LeCun, Text: So that was awesome.
+Speaker: Yan LeCun, Text: And they had been working already for a while on character recognition.
+Speaker: Yan LeCun, Text: They had this enormous data set called USPS that had 5,000 training samples.
+Speaker: Yan LeCun, Text: And so immediately, I, you know,
+Speaker: Yan LeCun, Text:  trained a designer convolutional net, which was LeNet1, basically, and trained it on this dataset and got really good results, better results than the other methods that they had tried on it and that other people had tried on this dataset.
+Speaker: Yan LeCun, Text: We knew we had something.
+Speaker: Yan LeCun, Text:  fairly early on.
+Speaker: Yan LeCun, Text: This was within three months of me joining Bell Labs.
+Speaker: Yan LeCun, Text: And so that was the first version of convolutional net, where we had a convolution with stride, and we did not have separate subsampling and pooling layers.
+Speaker: Yan LeCun, Text: So each convolution was actually subsampling directly.
+Speaker: Yan LeCun, Text: And the reason for this is that we just could not afford to have a convolution at every location.
+Speaker: Yan LeCun, Text: There was just too much computation.
+Speaker: Yan LeCun, Text: So the second version,
+Speaker: Yan LeCun, Text:  had a separate convolution and pooling layer and subsampling.
+Speaker: Yan LeCun, Text: I guess that's the one that's called the net one, really.
+Speaker: Yan LeCun, Text: We published a couple of papers on this in neural computation and at NIPS.
+Speaker: Yan LeCun, Text: And so one interesting story, I gave a talk at NIPS about this work.
+Speaker: Yan LeCun, Text:  And Geoff Hinton was in the audience, and then I came back to my seat, I was sitting next to him, and he said, you know, there's one bit of information in your talk, which is that if you do all the sensible things, it actually works.
+Speaker: Andrew Ng, Text: And in fact, shortly after, that line of work went on to make history, because it became widely adopted.
+Speaker: Andrew Ng, Text: These ideas became widely adopted for reading checks.
+Speaker: Yan LeCun, Text: Yeah, so they became widely adopted within AT&T, but not very much outside.
+Speaker: Yan LeCun, Text:  And I think it's a little difficult for me to really understand why.
+Speaker: Yan LeCun, Text: But there's several factors, I think.
+Speaker: Yan LeCun, Text: So this was back in the late 80s.
+Speaker: Yan LeCun, Text: And there was no internet.
+Speaker: Yan LeCun, Text: We had email.
+Speaker: Yan LeCun, Text: We had FTP.
+Speaker: Yan LeCun, Text: But there was no internet, really.
+Speaker: Yan LeCun, Text:  Nobody, you know, no two labs were using the same software or hardware platform, right?
+Speaker: Yan LeCun, Text: You know, some people had some workstations, others had, you know, other machines, you know, some people were using PCs, whatever.
+Speaker: Yan LeCun, Text: There was no such thing as Python or MATLAB or anything like that, right?
+Speaker: Yan LeCun, Text: People were writing their own code.
+Speaker: Yan LeCun, Text: I had written, I spent a year and a half basically writing, me and Léon Bottou, when he was still a student, we were working together and we spent a year and a half basically just writing a neural net simulator.
+Speaker: Yan LeCun, Text:  And at the time, you know, because there was no MATLAB or Python, you had to write your own interpreter, right, to kind of control it.
+Speaker: Yan LeCun, Text: So we wrote our own Lisp interpreter.
+Speaker: Yan LeCun, Text: And so all the net was written in Lisp using a numerical backend, very similar to what we have now with, you know, blocks that you can interconnect and sort of magic differentiation and all that stuff that we are familiar with now with, you know, Torch and PyTorch and TensorFlow and all those things.
+Speaker: Yan LeCun, Text:  So then we developed a bunch of applications.
+Speaker: Yan LeCun, Text: We got together with a group of engineers, very smart people.
+Speaker: Yan LeCun, Text: Some of them had, you know, were like theoretical physicists who kind of turned engineer at Bell Labs.
+Speaker: Yan LeCun, Text: Chris Burgess was one of them, who then had a distinguished career at Microsoft Research afterwards.
+Speaker: Yan LeCun, Text:  Craig Noel and a bunch of other people and we were collaborating with them to kind of make this technology practical.
+Speaker: Yan LeCun, Text: And so they developed, together we developed those character recognition systems and that meant integrating convolutional nets with things like
+Speaker: Yan LeCun, Text:  similar to things that we now call CRFs for interpreting sequences of characters, not just individual characters.
+Speaker: Andrew Ng, Text: Yeah, right.
+Speaker: Andrew Ng, Text: The Lynette paper had partially on the neural network and partially on the autonomous machinery to put it together.
+Speaker: Yan LeCun, Text: Yeah, that's right.
+Speaker: Yan LeCun, Text: And so the first half of the paper is on convolutional nets, and the paper is mostly cited for that.
+Speaker: Yan LeCun, Text: And then the second half, very few people have read it.
+Speaker: Yan LeCun, Text: And it's about sequence-level discriminative learning and basically structure prediction.
+Speaker: Yan LeCun, Text:  you know, without normalization.
+Speaker: Yan LeCun, Text: So it's very similar to CRF, in fact, you know, we've preceded CRF by several years.
+Speaker: Yan LeCun, Text: So that was very successful, except that the day we were
+Speaker: Yan LeCun, Text:  celebrating the deployment of that system in a major bank.
+Speaker: Yan LeCun, Text: We worked with this group that I was mentioning that was kind of doing the engineering of the whole system, and then another product group
+Speaker: Yan LeCun, Text:  in a different part of the country that belong to a subsidiary of AT&T called NCR.
+Speaker: Yan LeCun, Text: So this is the National Cash Register.
+Speaker: Yan LeCun, Text: They also build large, I mean, they build ATM machines and they build large check reading machines for banks.
+Speaker: Yan LeCun, Text: So there were the customers, if you want, they were using our check reading systems and they deployed it in a bank.
+Speaker: Yan LeCun, Text: I can't remember which bank it was.
+Speaker: Yan LeCun, Text: They deployed also the ATM machines in a French bank so they could read the check you would deposit.
+Speaker: Yan LeCun, Text:  And we were all at a fancy restaurant celebrating the deployment of this thing when the company announced that it was breaking itself up.
+Speaker: Yan LeCun, Text: So this was 1995, and AT&T announced that it was breaking itself up into three companies.
+Speaker: Yan LeCun, Text: So there was AT&T, and then there was Lucent Technologies, and NCR.
+Speaker: Yan LeCun, Text: So NCR was spun off, and Lucent Technologies was spun off.
+Speaker: Yan LeCun, Text: And the engineering group went with Lucent Technologies, and the product group, of course, went with NCR.
+Speaker: Yan LeCun, Text:  And the sad thing is that the AT&T lawyers, in their infinite wisdom, assigned a patent.
+Speaker: Yan LeCun, Text: There was a patent on convolutional nets, which is thankfully expired.
+Speaker: Yan LeCun, Text: Expired in 2007, about 10 years ago.
+Speaker: Yan LeCun, Text: And they signed a patent to NCR.
+Speaker: Yan LeCun, Text: But there was nobody in NCR who actually knew
+Speaker: Yan LeCun, Text:  what even what a conversational net was really.
+Speaker: Yan LeCun, Text: I see.
+Speaker: Yan LeCun, Text: And so the patent was in the hands of people who had no idea what they had.
+Speaker: Yan LeCun, Text: And we were in a different company that now could not really develop the technology and then our engineering team was in a separate company because we went with AT&T, the engineering went with Lucent, and the product group with NCR.
+Speaker: Yan LeCun, Text: So it was a little depressing.
+Speaker: Yan LeCun, Text: I see, yeah.
+Speaker: Andrew Ng, Text: So in addition to your early work, you know, when neural networks were popped, you kept persisting on neural networks even when
+Speaker: Andrew Ng, Text:  there was some sort of winter for NeuralNet, so what was that like?
+Speaker: Yan LeCun, Text: Well, so I persisted and didn't persist in some ways.
+Speaker: Yan LeCun, Text: I was always convinced that eventually those techniques would come back.
+Speaker: Yan LeCun, Text:  to the fore and sort of, you know, people would figure out how to use them in practice and it would be useful.
+Speaker: Yan LeCun, Text: So I always had that in the back of my mind.
+Speaker: Yan LeCun, Text: But in 1996, when AT&T broke itself up and all of our work on character recognition basically was kind of broken up because the product groups was, you know, went in a separate way, I was also promoted to department head and I had to figure out what to work on.
+Speaker: Yan LeCun, Text:  And this was the early days of the internet.
+Speaker: Yan LeCun, Text: We're talking 1995.
+Speaker: Yan LeCun, Text: And I had the idea somehow that one big problem about the emergence of the internet was going to be to bring all the knowledge that we had on paper to the digital world.
+Speaker: Yan LeCun, Text: And so I started actually a project called Deja Vu, D-J-V-U, which was to compress scanned documents essentially so they could be distributed over the internet.
+Speaker: Yan LeCun, Text:  And this project was really fun for a while and had some success, although AT&T really didn't know what to do with it.
+Speaker: Andrew Ng, Text: Yeah, I remember that.
+Speaker: Andrew Ng, Text: It was helping dissemination of online research papers.
+Speaker: Yan LeCun, Text: Yeah, that's right.
+Speaker: Yan LeCun, Text: Exactly.
+Speaker: Yan LeCun, Text: And we scanned the entire proceedings of NIPS and we made them available online to demonstrate how that worked.
+Speaker: Yan LeCun, Text: And we could compress high-resolution pages to just a few kilobytes.
+Speaker: Andrew Ng, Text: So Confident, starting from some of your much earlier work, has now
+Speaker: Andrew Ng, Text:  kind of pretty much taken over the field of computer vision and starting to encroach significantly into even other fields.
+Speaker: Andrew Ng, Text: So just tell me about how you saw that whole process.
+Speaker: Yan LeCun, Text: So I'll tell you how I thought this was going to happen early on.
+Speaker: Yan LeCun, Text: So first of all, I always believed that this was going to work.
+Speaker: Yan LeCun, Text:  It required fast computers and lots of data.
+Speaker: Yan LeCun, Text: But I always believed somehow that this was going to be the right thing to do.
+Speaker: Yan LeCun, Text: What I thought originally when I was at Bell Labs, that there was going to be some sort of continuous progress along these directions as machines got more powerful.
+Speaker: Yan LeCun, Text: And we were even designing chips to run convolutional nets at Bell Labs.
+Speaker: Yan LeCun, Text: Bernard Bozer, actually, and Hans-Peter Graf, separately, had two different chips for running convolutional nets really efficiently.
+Speaker: Yan LeCun, Text:  And so we thought there was going to be a pickup of this and growing interest and continuous progress for it.
+Speaker: Yan LeCun, Text: But in fact, because of the interest for neural nets dying in the mid-90s, that didn't happen.
+Speaker: Yan LeCun, Text: So there was a dark period of six or seven years between 1995, roughly, and 2002, when basically nobody was working on this.
+Speaker: Yan LeCun, Text:  In fact, there was a little bit of work.
+Speaker: Yan LeCun, Text: There was some work at Microsoft in the early 2000s on using convolution nets for Chinese character recognition.
+Speaker: Yan LeCun, Text: And there was some other small work for like face detection and things like this in France and in various other places.
+Speaker: Yan LeCun, Text: But it was very small.
+Speaker: Yan LeCun, Text: I discovered actually recently that
+Speaker: Yan LeCun, Text:  There's a couple groups that came up with ideas that are essentially very similar to commercial nets but never quite published it, you know, the same way for medical image analysis.
+Speaker: Yan LeCun, Text: And those were mostly in the context of commercial systems and so it never quite made it to the population.
+Speaker: Yan LeCun, Text: I mean, it was after our first work on commercial nets and they were not really aware of it, but it sort of developed in parallel a little bit.
+Speaker: Yan LeCun, Text:  So, you know, several people got kind of similar ideas, you know, several years interval.
+Speaker: Yan LeCun, Text: But then I was really surprised by how fast interest picked up after, you know, the ImageNet in 2012.
+Speaker: Yan LeCun, Text: So it's the end of 2012.
+Speaker: Yan LeCun, Text: It was kind of a very interesting event at ECCV in Florence, where there was a workshop on ImageNet.
+Speaker: Yan LeCun, Text:  And everybody knew that Jeff Hinton's team, Alex Krzyzewski, and Elias Suskever had won by a large margin.
+Speaker: Yan LeCun, Text: And so everybody was waiting for Alex Krzyzewski's talk.
+Speaker: Yan LeCun, Text: And most people in the computer vision community had no idea what a convolutional net was.
+Speaker: Yan LeCun, Text: I mean, they heard me talk about it.
+Speaker: Yan LeCun, Text: I actually had an invited talk at CVPR in 2000 where I talked about it.
+Speaker: Yan LeCun, Text:  But most people had not paid much attention to it.
+Speaker: Yan LeCun, Text: Senior people did.
+Speaker: Yan LeCun, Text: They knew what it was.
+Speaker: Yan LeCun, Text: But the more junior people in the community really had no idea what it was.
+Speaker: Yan LeCun, Text: And so Alex Krzyzewski just gives this talk.
+Speaker: Yan LeCun, Text: And he doesn't explain what a conversion net is, because he assumes everybody knows.
+Speaker: Yan LeCun, Text: Because he comes from machine learning.
+Speaker: Yan LeCun, Text: So he says, here is how everything's connected, and how we transform the data, and what results we get.
+Speaker: Yan LeCun, Text:  kind of assuming that everybody knows what it is.
+Speaker: Yan LeCun, Text: And a lot of people are incredibly surprised.
+Speaker: Yan LeCun, Text: And you could see the opinion of people changing as he was kind of giving his talk.
+Speaker: Yan LeCun, Text: You know, very senior people in the field.
+Speaker: Andrew Ng, Text:  So do you think that workshop was the defining moment that swayed a lot of the computer vision community?
+Speaker: Andrew Ng, Text: Yeah, definitely.
+Speaker: Andrew Ng, Text: That's where it happened, right there.
+Speaker: Andrew Ng, Text: So today, you retain a faculty position at NYU, and you also lead FAIR, Facebook AI Research.
+Speaker: Andrew Ng, Text: I know you have a pretty unique point of view on how corporate research should be done.
+Speaker: Andrew Ng, Text: Do you want to share your thoughts on that?
+Speaker: Yan LeCun, Text: Yeah.
+Speaker: Yan LeCun, Text: So I mean, one of the beautiful things that
+Speaker: Yan LeCun, Text:  you know, that I managed to do at Facebook in the last four years is that I was, I was given a lot of freedom to set up FAIR the way I thought was the most appropriate.
+Speaker: Yan LeCun, Text: Because this was the first research organization within Facebook.
+Speaker: Yan LeCun, Text: You know, Facebook is a sort of engineering centric company, and so far was really focused on sort of survival or short term things.
+Speaker: Yan LeCun, Text: And Facebook was, you know, about to turn 10 years old.
+Speaker: Yan LeCun, Text:  had a successful IPO and was basically thinking about the next 10 years.
+Speaker: Yan LeCun, Text: Mark Zuckerberg was thinking, what is going to be important for the next 10 years?
+Speaker: Yan LeCun, Text: And the survival of the company was not in question anymore.
+Speaker: Yan LeCun, Text: So this is the kind of transition where a large company can start to think or
+Speaker: Yan LeCun, Text:  It was not such a large company at the time, Facebook had 5,000 employees or so, but it had the luxury to think about the next 10 years and what would be important in technology.
+Speaker: Yan LeCun, Text: And Marc and his team decided that AI was going to be a crucial piece of technology for connecting people, which is the mission of Facebook.
+Speaker: Yan LeCun, Text:  And so they explored several ways to kind of build an effort in AI.
+Speaker: Yan LeCun, Text: They had a small internal group, engineering group, experimenting with convolutional nets and stuff that were getting really good results on face recognition and various other things, which piqued their interest.
+Speaker: Yan LeCun, Text: And they explored the idea of hiring a bunch of young researchers or acquiring a company or things like this.
+Speaker: Yan LeCun, Text: And they settled on the idea of hiring someone senior in the field and then kind of setting up a research organization.
+Speaker: Yan LeCun, Text:  And it was a bit of a culture shock initially because the way research operates in the company is very different from engineering, right?
+Speaker: Yan LeCun, Text: You have longer timescales and horizon and researchers tend to be very conservative about the choice of places where they want to work.
+Speaker: Yan LeCun, Text: And I made very clear very early on that research needs to be open.
+Speaker: Yan LeCun, Text:  that researchers need to not only be encouraged to publish but be even mandated to publish and also be evaluated on criteria that are similar to what we use to evaluate academic researchers.
+Speaker: Yan LeCun, Text:  You know, what Mark and Mike Schaeffer, the CTO of the company, who is my boss now, said, you know, they said, Facebook is a very open company.
+Speaker: Yan LeCun, Text: We distribute a lot of stuff in open source.
+Speaker: Yan LeCun, Text: You know, Shrepp, the CTO, comes from the open source world.
+Speaker: Yan LeCun, Text: He was from Mozilla before that, and a lot of people came from that world.
+Speaker: Yan LeCun, Text: So that was in the DNA of the company.
+Speaker: Yan LeCun, Text: So that made me
+Speaker: Yan LeCun, Text:  very confident that we could set up an open research organization.
+Speaker: Yan LeCun, Text: And then the fact that the company is not obsessively compulsive about IP, as some other companies are, makes it much easier to collaborate with universities and have arrangements by which a person can have a foot in industry and a foot in academia.
+Speaker: Yan LeCun, Text: And you find that valuable yourself?
+Speaker: Yan LeCun, Text: Oh, absolutely.
+Speaker: Yan LeCun, Text:  So if you look at my publications over the last four years, the vast majority of them are publications with my students at NYU.
+Speaker: Yan LeCun, Text: Because at Facebook, I did a lot of organizing the lab, hiring, scientific direction and advising and things like this.
+Speaker: Yan LeCun, Text: But
+Speaker: Yan LeCun, Text:  I don't get involved in individual research projects to get my name on papers, and I don't care to get my name on papers anymore, but it's... It's about stepping out someone else to do great work rather than doing all the great work yourself.
+Speaker: Andrew Ng, Text: Exactly, right.
+Speaker: Yan LeCun, Text: And you never want to put yourself... You want to stay behind the scene, and you don't want to put yourself in competition with people in your lab in that case.
+Speaker: Andrew Ng, Text:  I'm sure you get asked this a lot, but I hope you can answer for all the people watching this video as well.
+Speaker: Andrew Ng, Text: What advice do you have for someone wanting to get involved in AI or break into AI?
+Speaker: Yan LeCun, Text: I mean, it's such a different world now than it was when I got started.
+Speaker: Yan LeCun, Text: I think what's great now is it's very easy for people to
+Speaker: Yan LeCun, Text:  get involved at some level, right?
+Speaker: Yan LeCun, Text: I mean, the tools that are available are so easy to use now, you know, with TensorFlow, PyTorch, whatever.
+Speaker: Yan LeCun, Text: You can, you know, you can have a relatively cheap computer in your, you know, in your bedroom and basically train your commercial net or your current net to do whatever.
+Speaker: Yan LeCun, Text: And there's a lot of tools.
+Speaker: Yan LeCun, Text: You can learn a lot from online material about this without
+Speaker: Yan LeCun, Text:  It's not very onerous.
+Speaker: Yan LeCun, Text: So you see high school students now playing with this, right?
+Speaker: Yan LeCun, Text: Which is great, I think.
+Speaker: Yan LeCun, Text: And there's certainly a growing interest from the student population to learn about machine learning and AI.
+Speaker: Yan LeCun, Text: And it's very exciting for young people that I find that wonderful, I think.
+Speaker: Yan LeCun, Text: So my advice is, if you want to get into this, make yourself
+Speaker: Yan LeCun, Text:  So make a contribution to an open source project, for example.
+Speaker: Yan LeCun, Text: Or make an implementation of some standard algorithm that you couldn't find the code of online, but you'd like to make it available to other people.
+Speaker: Yan LeCun, Text: So take a paper that you think is important, and then reimplement the algorithm, and then put it up in an open source package, or contribute to one of those open source packages.
+Speaker: Yan LeCun, Text: And if the stuff you write is interesting and useful, you'll get noticed.
+Speaker: Yan LeCun, Text:  get a nice job at a company you really want a job at, or maybe you'll get accepted in your favorite PhD program, or things like this.
+Speaker: Yan LeCun, Text: So I think that's a good way to get started.
+Speaker: Andrew Ng, Text: So open source contributions is a good way to enter the community.
+Speaker: Andrew Ng, Text: Yeah, that's right.
+Speaker: Yan LeCun, Text: That's right.
+Speaker: Andrew Ng, Text:  Thanks a lot, Jan.
+Speaker: Andrew Ng, Text: That was fascinating.
+Speaker: Andrew Ng, Text: I've known you for many years.
+Speaker: Andrew Ng, Text: It's still fascinating to hear all these details of all the stories that have gone on over the years.
+Speaker: Yan LeCun, Text: Yeah, there's many, many stories like this that, you know, reflecting back at the moment when they happen, you don't realize, you know, what importance it might take 10 or 20 years later.
+Speaker: Unknown, Text: Thank you.
+Speaker: Yan LeCun, Text: Thanks.
